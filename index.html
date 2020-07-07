@@ -3,9 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Hot-gadget</title>
 </head>
 <body>
+<!--#############################################################################
+                    Header-------NAV BAR
+  ############################################################################-->
+
+    <div class="container"> 
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img src="hot-gadgets/logo.png" alt="">
+          </a>
+
+          <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link text-muted active" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="#Product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="#About us">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="#Subcribe">Subscribe</a>
+              </li>
+          </ul>
+      </nav>
+   </div>
+  <!--#####################################################################
+            Headind part
+ ##########################################################################-->
+      <section class="first-section">
+
+        <div class="container">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center">
+                  <div class="col-md-7 carousel-para">
+                    <h2>Macbook Pro</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Cumque laboruma dipisicing elit. </p>
+                  <button class="btn btn-dark">
+                    BUY NOW <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </button>
+                  </div>
+                  <div class="col-md-5">
+                    <img class="d-block w-100" src="hot-gadgets/banner-products/product-1.png" alt="First slide">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-7">
+                    
+                    h2>Headphone</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Cumque laboruma dipisicing elit. </p>
+                    <button class="btn btn-outline-dark">
+                      BUY NOW <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <div class="col-md-5">
+                    <img class="d-block w-100" src="hot-gadgets/banner-products/slider-1.png" alt="Second slide">
+                  </div>
+                </div>
+
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-7">
+                    h2>ANother</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Cumque laboruma dipisicing elit. </p>
+                    <button class="btn btn-outline-dark">
+                      BUY NOW <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <div class="col-md-5">
+                    <img class="d-block w-100" src="hot-gadgets/banner-products/slider-3.png" alt="Third slide">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          
+
+        </div>
+
+      </section>
+<!--##############################################################################
+                      2nd
+  #############################################################################-->
+
+
+<!--###################################################################
+              product list
+#######################################################-->
+
+    <div class="container">
+        <div class="d-flex justify-content-between section-header">
+            <p class="font-weight-bold">Smartphone</p>
+          <h6 class="text-right text-warning">See all</h6></div>
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="hot-gadgets/phone/phone-1.png" alt="Card image cap">
+              <div class="card-body text-center pt-5">
+
+                <p class="card-text">This is a longer card with supporting text below </p>
+                <h5 class="price">$699</h5>
+                <button class="btn btn-outline-info btn-sm" type="button">BUY NOW <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="hot-gadgets/phone/phone-2.png" alt="Card image cap">
+              <div class="card-body text-center pt-5">
+
+                <p class="card-text">This is a longer card with supporting text below longer card with supporting tex. </p>
+                <h5 class="price">$999</h5>
+                <button class="btn btn-outline-success btn-sm" type="button">BUY NOW <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="hot-gadgets/phone/phone-3.png" alt="Card image cap">
+              <div class="card-body text-center pt-5">
+                <p class="card-text">This is a longer card with supporting text below longer card with supporting tex. </p>
+                <h5 class="price">$799</h5>
+                <button class="btn btn-outline-dark" type="button">BUY NOW <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+
+            </div>
+            </div>
+          </div>
+
+       </div>
+       <!--##################################################################
+        2nd product list
+      #######################################################################-->
+      <div class="container">
+        <div class="d-flex justify-content-between section-header">
+            <p class="font-weight-bold"> Laptop</p>
+          <h6 class="text-right text-warning">See all</h6>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="hot-gadgets/laptop/product-1.png" alt="Card image cap">
+              <div class="card-body text-center pt-5">
+                <h3>Asus ViVo Book</h3>
+                <p class="card-text">Some quick example text to build 0n the card title </p>
+                <h5 class="price">$999</h5>
+                <button class="btn btn-outline-info btn-sm" type="button">BUY NOW <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="hot-gadgets/laptop/product-2.png" alt="Card image cap">
+              <div class="card-body text-center pt-5">
+                <h3>Razer Blade 15</h3>
+                <p class="card-text">This is a  below longer card with supporting tex. </p>
+                <h5 class="price">$2799</h5>
+                <button class="btn btn-outline-info btn-sm" type="button">BUY NOW <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="hot-gadgets/laptop/product-3.png" alt="Card image cap">
+              <div class="card-body text-center pt-5">
+                <h3>Xiaomi Mi Notebook Pro</h3>
+                <p class="card-text">This is a longer card with supporting text below longer </p>
+                <h5 class="price">$799</h5>
+                <button class="btn btn-outline-dark btn-sm" type="button">BUY NOW <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+
+            </div>
+            </div>
+          </div>
+
+       </div>
+<!--$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$############
+                      laptop finish
+  ###########################################################################-->
+    <!-----@@@@@@@@@@@@@@@@@@@@@@ Catagoris start ##############-->
     
 </body>
 </html>

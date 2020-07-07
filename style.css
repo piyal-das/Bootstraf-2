@@ -1,0 +1,9 @@
+.first-section{
+    background-image: url(hot-gadgets/header-bg.png);
+    background-repeat: no-repeat;
+}
+.card{
+    background-image: url(hot-gadgets/latest-work-bg.png);
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 10px grey;
+}
